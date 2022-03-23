@@ -9,26 +9,36 @@
 <body>
       <!--Necesito redirigir a index.html-->
       <a href="../index.html">Home</a>
+      <br>
+    <form action="ruta">
+        <table border="1">
+            <tr>
+                <th colspan="2">Acceso</th>
+            </tr>
+            <tr>
+                <td>
+                    <label for="">Rut</label>
 
-     <table border="1">
-        <tr>
-            <th>Acceso</th>
-        </tr>
-        <tr>
-            <td>aqui va un label indicando el rut</td>
-            <td>aqui va un campo de texto </td>
-        </tr>
-        <tr>
-            <td>aqui va un label indicando la clave</td>
-            <td>aqui va un campo de texto de tipo password</td>
-        </tr>
-        <tr>
-            <td>
-                aqui va un boton
-            </td>
-        </tr>
-
+                </td>
+                <td>
+                    <input type="text" name="rut" placeholder="Ej: 11111111-1">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="">Clave</label>
+                </td>
+                <td>
+                    <input type="password" name="clave">
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2" align="center">
+                    <button>Acceder</button>
+                </td>
+            </tr>
      </table>
+    </form>
 
 
 
